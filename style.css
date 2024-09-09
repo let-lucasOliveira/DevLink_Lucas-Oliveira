@@ -30,6 +30,7 @@
 
 body{
     background: var(--bg-url) fixed top center/cover;
+    transition: all 0.25s;
 }
 
 body * {
@@ -88,14 +89,18 @@ body * {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+    animation: slide-back 0.2s;
+    }
+    
+    #switch button:hover{
+        outline: 8px solid var(--hightlight-color-hover);
     }
     
     .lighty #switch button{
-        right: 0;
-        left: initial;
-        }
+    animation: slide-in 0.2s forwards;
+    }
         
-        #switch span {
+    #switch span { 
     display: block;
     width: 64px;
     height: 24px;
@@ -104,7 +109,7 @@ body * {
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     border-radius: 9999px;
-}
+    }
 
 /* Lista */
 
@@ -156,14 +161,37 @@ font-size: 24px;
     transition: all 0.2;
     }
 
-        #social-links a:hover {
-        background: var(--hightlight-color-hover);
-        padding: 16px;
-        }
+#social-links a:hover {
+background: var(--hightlight-color-hover);
+padding: 16px;
+}
 
-        footer{
-        margin: 20px 10px;
-        display: flex;
-        justify-content: center;
-        align-self: flex-end;
-        }
+footer{
+margin: 20px 10px;
+display: flex;
+justify-content: center;
+align-self: flex-end;
+}
+
+/* At rules == @rules*/
+/* Animações */
+
+@keyframes slide-in{
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 50%;
+    }
+}
+
+@keyframes slide-back{
+    from{
+        left: 50%;
+    }
+
+    to{
+        left: 0;
+    }
+}
