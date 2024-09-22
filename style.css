@@ -13,6 +13,10 @@
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(255, 255, 255, 0.02);
     --hightlight-color-hover: rgba(255, 255, 255, 0.2);
+    --hightlight-youtube-color-hover: rgba(255, 2, 2, 0.35);
+    --hightlight-instagram-color-hover: rgba(221, 12, 134, 0.35);
+    --hightlight-github-color-hover: rgba(86, 12, 88, 0.35);
+    --hightlight-linkedin-color-hover: rgba(1, 93, 212, 0.35);
     --switch-btn-backgroud: black;
     --switch-bg-url: url(./assets/moon-stars.svg);
 }
@@ -24,6 +28,9 @@
     --surface-color: rgba(0, 0, 0, 0.1);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --hightlight-color-hover: rgba(0, 0, 0, 0.1);
+    --hightlight-youtube-color-hover: rgba(255, 2, 2, 0.2);
+    --hightlight-instagram-color-hover: rgba(221, 12, 186, 0.2);
+    --hightlight-github-color-hover: rgba(80, 0, 80, 0.2);
     --switch-btn-backgroud: white;
     --switch-bg-url: url(./assets/sun.svg);
 }
@@ -161,10 +168,22 @@ font-size: 24px;
     transition: all 0.2;
     }
 
-#social-links a:hover {
-background: var(--hightlight-color-hover);
-padding: 16px;
-}
+#social-links #youtube:hover{
+    background: var(--hightlight-youtube-color-hover);
+    padding: 16px;
+} 
+#social-links #instagram:hover{
+    background: var(--hightlight-instagram-color-hover);
+    padding: 16px;
+} 
+#social-links #linkedin:hover{
+    background: var(--hightlight-linkedin-color-hover);
+    padding: 16px;
+} 
+#social-links #github:hover{
+    background: var(--hightlight-github-color-hover);
+    padding: 16px;
+} 
 
 footer{
 margin: 20px 10px;
