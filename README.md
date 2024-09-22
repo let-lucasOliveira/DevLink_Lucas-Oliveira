@@ -34,13 +34,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado pelo palestrante, online](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado por mim, online](https://let-lucasoliveira.github.io/DevLink_Lucas-Oliveira)
 
 - [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+O que foi alterado por mim:
+- Adicionado transição da imagem de fundo para suavizar a mudança para o modo escuro.
+- Troca de foto do palestrante, Mayk Brito, pela minha própria.
+- Alterado o endereço dos links para meus projetos e minhas redes sociais.
 
 ## :memo: Licença
 
